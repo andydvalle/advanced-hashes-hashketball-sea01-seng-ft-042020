@@ -202,7 +202,18 @@ def player_numbers (team_name)
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       while data == team_name do
-        
+          if data.class == Array
+          #nding.pry
+          data.each do |index|
+            if index == Hash
+              index.each do |stats, stats_value|
+                if stats == :number
+                  player_numbers << stats_value
+                end
+              end
+            end
+          end
+        end
       end
     end
   end
