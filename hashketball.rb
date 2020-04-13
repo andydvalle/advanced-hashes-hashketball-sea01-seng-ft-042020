@@ -204,7 +204,9 @@ def player_numbers (team_name)
       #binding.pry
       if data == team_name
         if data.class == Array
-          
+          data.each do 
+            
+          end
         end
       end
     end
