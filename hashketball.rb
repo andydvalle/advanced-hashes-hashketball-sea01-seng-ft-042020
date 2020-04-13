@@ -205,6 +205,7 @@ def player_numbers (team_name)
         data.each do |index|
           if index.class == Hash
             index.each do |stats, stats_value|
+              binding.pry
               if stats == :number
                 player_numbers << stats_value
               end
