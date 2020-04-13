@@ -196,6 +196,6 @@ def team_names
   return team_names
 end
 
-def player_numbers
+def player_numbers (team_name)
   game_hash
 end
