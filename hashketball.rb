@@ -186,7 +186,7 @@ end
 def team_names
   team_names = []
   game_hash.each do |location, team_data|
-    #binding.pry
-    team_names << team_data[:team_name]
+    binding.pry
+    team_data[:team_name]
   end
 end
