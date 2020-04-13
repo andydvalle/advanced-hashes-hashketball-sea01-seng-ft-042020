@@ -218,3 +218,7 @@ def player_numbers (team_name)
   end
   return player_numbers
 end
+
+def player_stats
+  game_hash
+end
