@@ -250,6 +250,7 @@ def big_shoe_rebounds
           if index.class == Hash
             index.each do |stats, stats_value|
               binding.pry
+              end
             end
           end
         end
