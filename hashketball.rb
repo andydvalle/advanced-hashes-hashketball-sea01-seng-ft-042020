@@ -137,7 +137,6 @@ def num_points_scored(player_name)
       data.each do
         
       end
-      end
     end
   end
 end
