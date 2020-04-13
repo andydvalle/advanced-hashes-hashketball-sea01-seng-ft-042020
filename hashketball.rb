@@ -171,6 +171,6 @@ def shoe_size (player_name)
 end
 
 
-def team_colors
+def team_colors(team_name)
   game_hash
 end
