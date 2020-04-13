@@ -214,5 +214,5 @@ def player_numbers (team_name)
       end
     end
   end
-  return player_numbers
+  return player_numbers.sort
 end
