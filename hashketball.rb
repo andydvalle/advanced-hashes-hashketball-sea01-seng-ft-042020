@@ -139,6 +139,7 @@ def num_points_scored(player_name)
         if data.class == Hash 
           
         end
+      end
         end
       end
     end
