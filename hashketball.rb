@@ -206,8 +206,10 @@ def player_numbers (team_name)
         if data.class == Array
           data.each do |index|
             if index == Hash
-              index.each do 
-                
+              index.each do |stats, stats_value|
+                if stats == :number
+                  player_numbers << stats_value
+                end
               end
             end
           end
