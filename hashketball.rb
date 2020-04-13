@@ -260,4 +260,6 @@ def big_shoe_rebounds
       end
     end
   end
+  biggest_shoe
+  player_with_biggest_shoe
 end
