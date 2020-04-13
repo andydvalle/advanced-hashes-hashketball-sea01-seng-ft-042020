@@ -139,7 +139,7 @@ def num_points_scored(player_name)
         data.each do |index|
           if index.class == Hash
             index.each do |stats, stats_value|
-              binding.pry
+              #binding.pry
               if index[:player_name] == player_name
                 return index[:points]
               end
