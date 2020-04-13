@@ -243,7 +243,9 @@ def big_shoe_rebounds
   biggest_shoe = 0
   player_with_biggest_shoe = " "
   
-  game_hash.each do 
-    
+  game_hash.each do |location,team_data|
+    team_data.each do 
+      
+    end
   end
 end
