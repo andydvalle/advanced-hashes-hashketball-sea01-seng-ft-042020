@@ -227,7 +227,9 @@ def player_stats (player_name)
         data.each do |index|
           if index.class == Hash
             index.each do |stats, stats_value|
-              
+              if stats_value == player_name
+                return index
+              end
             end
           end
           
