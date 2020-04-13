@@ -250,6 +250,10 @@ def big_shoe_rebounds
           if index.class == Hash
             index.each do |stats, stats_value|
               binding.pry
+              if biggest_shoe < index[:shoe]
+                biggest_shoe = index[:shoe]
+                player_with_biggest_shoe = index[:player_name]
+              end
             end
           end
         end
