@@ -226,8 +226,8 @@ def player_stats (player_name)
       if data.class == Array
         data.each do |index|
           if index.class == Hash
-            index.each do 
-              binding.pry
+            index.each do |stats, stats_value|
+              
             end
           end
           
