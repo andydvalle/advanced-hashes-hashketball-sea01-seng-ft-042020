@@ -198,4 +198,5 @@ end
 
 def player_numbers (team_name)
   game_hash
+  player_numbers = []
 end
