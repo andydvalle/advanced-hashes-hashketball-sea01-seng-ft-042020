@@ -154,7 +154,8 @@ end
 def shoe_size (player_name)
   game_hash
   game_hash.each do |location, team_data|
-    
-    
+    team_data.each do 
+      
+    end
   end
 end
