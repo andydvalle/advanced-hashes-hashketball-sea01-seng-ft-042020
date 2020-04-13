@@ -200,7 +200,12 @@ def player_numbers (team_name)
   game_hash
   player_numbers = []
   game_hash.each do |location, team_data|
-    team_data.each do
+    team_data.each do |attribute, data|
+      if data.class == Array
+        data.each do |index|
+          
+        end
+      end
       
     end
   end
