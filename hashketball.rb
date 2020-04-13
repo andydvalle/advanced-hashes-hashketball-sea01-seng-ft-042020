@@ -155,7 +155,16 @@ def shoe_size (player_name)
   game_hash
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      binding.pry
+      if data.class == Array
+        data.each do |index|
+          if index.class == Hash
+            index.each do |stats, stats_value|
+              if index[:player_name] == player_name
+                return index[:shoe]
+              end
+            end
+          end
+        end
       end
     end
   end
