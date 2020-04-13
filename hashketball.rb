@@ -177,7 +177,7 @@ def team_colors(team_name)
     team_data.each do |attribute, data|
       binding.pry
       if data == team_name
-        
+        return team_data[:colors]
       end
     end
   end
