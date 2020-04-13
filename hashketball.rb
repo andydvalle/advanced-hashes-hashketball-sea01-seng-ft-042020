@@ -244,7 +244,10 @@ def big_shoe_rebounds
   player_with_biggest_shoe = " "
   
   game_hash.each do |location,team_data|
-    team_data.each do 
+    team_data.each do |attribute, data|
+      if data.class == Array
+        
+      end
       
     end
   end
