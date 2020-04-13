@@ -205,7 +205,7 @@ def player_numbers (team_name)
       if data == team_name
         if data.class == Array
           data.each do |index|
-            
+            if index == Hash
           end
         end
       end
