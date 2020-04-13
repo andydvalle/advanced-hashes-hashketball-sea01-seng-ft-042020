@@ -200,9 +200,8 @@ def player_numbers (team_name)
   game_hash
   player_numbers = []
   game_hash.each do |location, team_data|
-    team_data.each do |attribute, data|
-#binding.pry
-      if team_data[:team_name] == team_name
+    if team_data[:team_name] == team_name
+      team_data.each do 
         
       end
     end
