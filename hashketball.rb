@@ -134,11 +134,7 @@ def num_points_scored(player_name)
   game_hash
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
-      data.each do |data_item|
-         if data_item.class == Hash
-           Hash.each 
-           
-         end
+
          end
       end
     end
