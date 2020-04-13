@@ -203,17 +203,7 @@ def player_numbers (team_name)
     team_data.each do |attribute, data|
       #binding.pry
       if data == team_name
-        if data.class == Array
-        data.each do |index|
-          if index.class == Hash
-            index.each do |stats, stats_value|
-              if stats == :number
-                player_numbers << stats_value
-              end
-            end
-          end
-        end
-      end
+        
       end
     end
   end
