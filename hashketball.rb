@@ -187,6 +187,7 @@ def team_names
   team_names = []
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
+      binding.pry
       if attribute == team_name
         team_names << data
       end
