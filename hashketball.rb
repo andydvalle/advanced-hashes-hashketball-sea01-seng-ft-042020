@@ -199,4 +199,7 @@ end
 def player_numbers (team_name)
   game_hash
   player_numbers = []
+  game_hash.each do
+    
+  end
 end
