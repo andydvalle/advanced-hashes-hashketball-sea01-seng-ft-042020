@@ -136,8 +136,10 @@ def num_points_scored(player_name)
     team_data.each do |attribute, data|
 #binding.pry
       if data.class == Array 
-        data.each do
-          
+        data.each do |index|
+          if index.class == Hash
+            
+          end
         end
       end
     end
