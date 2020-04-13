@@ -205,7 +205,6 @@ def player_numbers (team_name)
         if data.class == Array
           data.each do |index|
 
-            end
           end
         end
       end
