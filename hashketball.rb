@@ -203,8 +203,8 @@ def player_numbers (team_name)
     team_data.each do |attribute, data|
       #binding.pry
       if data == team_name
-        binding.pry
         if data.class == Array
+          binding.pry
           data.each do |index|
             if index == Hash
               index.each do |stats, stats_value|
