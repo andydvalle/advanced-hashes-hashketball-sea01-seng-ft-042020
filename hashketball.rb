@@ -240,4 +240,10 @@ end
 
 def big_shoe_rebounds
   game_hash
+  biggest_shoe = 0
+  player_with_biggest_shoe
+  
+  game_hash.each do 
+    
+  end
 end
