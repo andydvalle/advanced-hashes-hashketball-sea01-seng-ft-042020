@@ -138,7 +138,9 @@ def num_points_scored(player_name)
       if data.class == Array 
         data.each do |index|
           if index.class == Hash
-            
+            index.each do
+              
+            end
           end
         end
       end
