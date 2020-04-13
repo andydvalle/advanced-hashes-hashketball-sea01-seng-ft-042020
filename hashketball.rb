@@ -135,8 +135,10 @@ def num_points_scored(player_name)
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
 binding.pry
-      if data == Hash 
-       puts i am here
+      if data.class == Array 
+        Array.each do
+          
+        end
       end
     end
   end
